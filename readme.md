@@ -1,4 +1,4 @@
-# A Sample DApp with Truffle, Solidity and Ganache
+# A Sample DApp with Truffle, Solidity and Ganache in Blockchain
  - [Step1]
 ```C:\Users\91999\blockchain>npm install -g truffle
 C:\Users\91999\AppData\Roaming\npm\truffle -> C:\Users\91999\AppData\Roaming\npm\node_modules\truffle\build\cli.bundled.js
@@ -20,7 +20,7 @@ added 27 packages from 439 contributors in 259.341s
 > Unbox  Truffle Box just for this tutorial called pet-shop
 
 - [Step4]
-> Write sample contract say Adapors.solc. Better to use [enter link description here](https://remix.ethereum.org/) looks like ![enter image description here](https://remix.ethereum.org/)
+> Write sample contract say Adapors.solc. Better to use [enter link description here](https://remix.ethereum.org/) looks like ![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Remix.png)
 
 - [Step5]
 > Compile the contract
@@ -37,7 +37,7 @@ Compiling your contracts...
 > Before we can migrate our contract to the blockchain, we need to have a blockchain running. So, we're going to use [Ganache](https://www.trufflesuite.com/ganache), a personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests. If you haven't already, [download Ganache](https://www.trufflesuite.com/ganache) and double click the icon to launch the application. This will generate a blockchain running locally on port 7545.
 
 `Ganache.exe inside app folder for Windows in my case. Double-click on the downloaded file, follow the prompts, and you're up and running.` 
-> Ganache in local would would look like:
+> Ganache in local would would look like this : ![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-default.png)
 >
 
  - [ Step 8]
@@ -89,5 +89,6 @@ Summary
 
  ```
 > Now, go to Ganache app, you will note that the state of the blockchain has changed. The blockchain now shows that the current block, previously `0`, is now `4`. In addition, while the first account originally had 100 ether, it is now lower, due to the transaction costs of migration. See below image and blocks.
- 
-
+ ![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-Migration.png)
+> After the deployment with 4 blocks
+![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-Migration-blocks.png)
