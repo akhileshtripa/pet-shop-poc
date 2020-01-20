@@ -92,3 +92,8 @@ Summary
  ![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-Migration.png)
 > After the deployment with 4 blocks
 ![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-Migration-blocks.png)
+
+> Important: Individual block details can be seen like below:
+![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-block4.png)
+
+
