@@ -96,4 +96,9 @@ Summary
 > Important: Individual block details can be seen like below:
 ![enter image description here](https://github.com/akhileshtripa/pet-shop-poc/blob/master/images/Ganache-block4.png)
 
+Well, we are done with the the sample blockchain program. The next important step is testing.
 
+ - [Step9] 
+# #Testing the smart contract
+ > Truffle is very flexible when it comes to smart contract testing, in that tests can be written either in JavaScript or Solidity. In this tutorial, we'll be writing our tests in Solidity. 
+- Create a new file named `TestAdoption.sol` in the `test/` directory. I would say to use Ethereum Remix editor as it wil help in compiling the solidity code.
